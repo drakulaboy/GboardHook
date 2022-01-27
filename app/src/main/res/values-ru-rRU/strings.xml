@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GboardClipboard</string>
+    <string name="def_count">по умолчанию 10</string>
+    <string name="def_count_text">Емкость буфера обмена, по умолчанию 10</string>
+    <string name="days_count_text">Время сохранения буфера обмена, по умолчанию 3 дня</string>
+    <string name="days_count">По умолчанию 3 дня</string>
+    <string name="apply_but">Применять</string>
+    <string name="toast_found">Найдена конфигурация</string>
+    <string name="toast_fail">Не удалось прочитать конфигурацию</string>
+    <string name="hint_apply">После применения откроются свойства Gboard, жмите на Остановить и Отключить>Отключить приложение потом Включить\nПри первом применении требуется перезагрузка телефона</string>
+    <string name="notif_xposed">Сперва активируйте один раз модуль в Xposed/LSPosed!</string>
+</resources>
