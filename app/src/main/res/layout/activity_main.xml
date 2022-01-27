@@ -5,20 +5,44 @@
     android:gravity="center"
     android:orientation="vertical">
 
+        <TextView
+        android:id="@+id/notif_xposed"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="20.0sp"
+        android:textStyle="bold"
+        android:text="@string/notif_xposed" />
+
+    <TextView
+        android:id="@+id/desc_time_text"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/def_count_text" />
+
     <EditText
         android:id="@+id/et0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="剪切板容量，默认10"
+        android:hint="@string/def_count"
         android:inputType="number"
         android:numeric="integer"
         android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/days_time_text"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/days_count_text" />
 
     <EditText
         android:id="@+id/et1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="剪切板保存时间，默认3天，单位毫秒"
+        android:hint="@string/days_count"
         android:inputType="number"
         android:numeric="integer"
         android:singleLine="true" />
@@ -27,12 +51,12 @@
         android:id="@+id/bt0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="应用" />
+        android:text="@string/apply_but" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="应用之后需要重启Gboard\n首次应用需要重启手机" />
+        android:text="@string/hint_apply" />
 
 </LinearLayout>
