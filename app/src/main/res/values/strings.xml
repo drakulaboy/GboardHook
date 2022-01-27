@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">GboardHook</string>
+    <string name="app_name">GboardClipboard</string>
+    <string name="def_count">Default 10</string>
+    <string name="def_count_text">Clipboard capacity, default 10</string>
+    <string name="days_count_text">Clipboard save time, default is 3 days</string>
+    <string name="days_count">Default 3 days</string>
+    <string name="apply_but">Apply</string>
+    <string name="toast_found">Found configuration</string>
+    <string name="toast_fail">Failed to read configuration</string>
+    <string name="hint_apply">After apply, you need to restart Gboard, tap on Force Stop and Disable, then tap Enable again\nFirst time apply requires restarting the phone</string>
+    <string name="notif_xposed">First time activate one time the module in Xposed/LSPosed</string>
 </resources>
